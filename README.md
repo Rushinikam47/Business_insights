@@ -137,35 +137,66 @@ Dimension table : It will have the static data like details of customer and prod
 Fact table : It will have the data about the transactions
 
 gdb041:
+
                 dim_customer
+                
                       27 distinct markets (ex India, USA, spain)
+                      
                       75 distinct customers thorough out the market
+                      
                       2 types of platforms
+                      
                           Brick & Motors - Physical/offline store
+                          
                           E-commerce - Online Store (Amazon, flipkart)
+
+                        
                       Three channels
+                      
                           Retailer
+                          
                           Direct
+                          
                           Distributors
+                          
                 dim_market
+                
                       27 distinct markets (ex India, USA, spain)
+                      
                       7 sub-zones
+                      
                       4 regions
+                      
                           APAC
+                          
                           EU
+                          
                           nan
+                          
                           LATAM
+                          
               dim_product
+              
                       Divisions
+                      
                          P & A
+                         
                             Peripherals
+                            
                             Accessories
+                            
                          PC
+                         
                             Notebook
+                            
                             Desktop
+                            
                         N & S
+                        
                             Networking
+                            
                             Storage
+                            
                             
 There are 14 different categories, Like Internal HDD, keyboard
 
